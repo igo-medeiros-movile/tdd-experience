@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "start": "http-server ./src"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}
